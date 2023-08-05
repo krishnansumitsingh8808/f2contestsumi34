@@ -35,28 +35,28 @@ function createCard(cityData) {
     let weatherImgString;
     if (cityData.weather[0].main == "Clouds") 
     {
-        weatherImgString = "./assets/Cloudy.png";
+        weatherImgString = "Cloudy.png";
         
     } 
     if(cityData.weather[0].main == "Clear") 
     {
-        weatherImgString = "./assets/Cloudy.png";
+        weatherImgString = "Cloudy.png";
     } 
     if(cityData.weather[0].main == "Haze") 
     {
-        weatherImgString = "./assets/windy.png";
+        weatherImgString = ".windy.png";
     } 
     if(cityData.weather[0].main == "Rain") 
     {
-        weatherImgString = "./assets/Rainy.png";
+        weatherImgString = "Rainy.png";
     } 
     if(cityData.weather[0].main == "Drizzle") 
     {
-        weatherImgString = "./assets/tornado.png";
+        weatherImgString = "tornado.png";
     } 
     if (cityData.weather[0].main == "Mist") 
     {
-        weatherImgString = "./assets/windy.png";
+        weatherImgString = "windy.png";
     }
 
     let CardDiv = document.createElement("div");
